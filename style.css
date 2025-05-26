@@ -3,6 +3,51 @@
     padding: 0% ;
 }
 
-a {
-    color: black;
+/* Footer */
+
+
+footer{
+    margin-top: 5%;
+    background-color: coral;
+    height: 50px;
+}
+
+
+footer div{
+    float: left;
+    margin-left: 2%;
+}
+
+footer div.noUltimo{
+    margin-right: 30%;
+}
+
+/* Header */
+
+header div#titulo{
+
+    height: 15%;
+    color: azure;
+    background-color: #ffbb8a;
+    border: 1px solid #e8833a;
+
+}
+
+header div#titulo h1{
+
+    margin-left: 45%;
+
+}
+
+/* Header navs */
+
+header div#navegador{
+
+}
+
+header div#navegador li a{
+
+    background-color: #e8833a;
+    color: whitesmoke;
+    text-decoration: none;
 }
