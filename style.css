@@ -1,53 +1,103 @@
+/*General*/
+
+
 *{
     margin: 0%;
     padding: 0% ;
+}    
+
+
+/* Header */
+header {
+    background-color: #ffbb8a;
+    border: 1px solid #e8833a;
+    margin-bottom: 5%;
+}    
+header h1{
+    
+    height: 15%;
+    color: azure;
+    margin-left: 45%;
+    
+}    
+
+
+/* Header navs */
+
+header nav ul li{
+    
+    margin-top: 2%;
+    float: left;
+    margin-left: 10%;
+    list-style: none;
+    
+}    
+
+header nav li a{
+    
+    border-radius: 20%, 10%;
+    padding: 5%;
+    background-color: #e8833a;
+    color: whitesmoke;
+    text-decoration: none;
+}    
+
+/* Main */
+
+main form {
+    clear: both;
+}
+
+main ol{
+    clear: both;
+    list-style: none;
+
+}
+
+main ul{
+
+    list-style: none;
+
+
+}
+
+main div {
+    float: left;
+    width: 30%;
+    margin: 1%;
+}
+
+main {
+    width: 95%;
+    margin: 0 auto;
+}
+
+img{
+    width: 15%;
+    height: 15%;
+}    
+div img{
+    
+    width: 50%;
+    height: 50%;
+    
 }
 
 /* Footer */
 
-
 footer{
+    clear: both;
     margin-top: 5%;
-    background-color: coral;
+    background-color: rgb(255, 189, 135);
     height: 50px;
-}
+}    
 
 
 footer div{
     float: left;
     margin-left: 2%;
-}
+}    
 
 footer div.noUltimo{
     margin-right: 30%;
-}
-
-/* Header */
-
-header div#titulo{
-
-    height: 15%;
-    color: azure;
-    background-color: #ffbb8a;
-    border: 1px solid #e8833a;
-
-}
-
-header div#titulo h1{
-
-    margin-left: 45%;
-
-}
-
-/* Header navs */
-
-header div#navegador{
-
-}
-
-header div#navegador li a{
-
-    background-color: #e8833a;
-    color: whitesmoke;
-    text-decoration: none;
-}
+}    
