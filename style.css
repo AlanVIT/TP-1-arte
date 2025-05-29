@@ -21,6 +21,14 @@ header h1{
     
 }    
 
+main section img{
+
+    width: 20%;
+    height: 20%;
+    margin-left: 2%;
+    margin-top: 2%;
+
+}
 
 /* Header navs */
 
@@ -34,24 +42,25 @@ header nav ul li{
 }    
 
 header nav li a{
-    
     border-radius: 20%, 10%;
-    padding: 5%;
+    padding: 10%;
     background-color: #e8833a;
     color: whitesmoke;
     text-decoration: none;
 }    
 
 .actual{
-    color: #000;
     font-weight: 900;
+}
+
+.actual a{
+    color: #000;
+    padding: 20%;
+    border-radius: 10%;
 }    
 
 /* Main */
 
-main form {
-    clear: both;
-}
 
 main ol{
     clear: both;
@@ -60,10 +69,7 @@ main ol{
 }
 
 main ul{
-
     list-style: none;
-
-
 }
 
 main div {
@@ -72,7 +78,7 @@ main div {
     margin: 1%;
 }
 
-main {
+main{
     width: 95%;
     margin: 0 auto;
 }
@@ -82,11 +88,89 @@ img{
     height: 15%;
 }    
 div img{
-    
     width: 50%;
     height: 50%;
-    
+    margin-left: 25%;
 }
+main div p{
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+main div h5{
+    
+    margin-left: 50%;
+    margin-top: 10%;
+}
+/* Menu, es otro css pq no tiene divs */
+
+main ol {
+    clear: both;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+main ol li {
+    float: left;
+    width: 18%;
+    margin: 1%;
+    text-align: center;
+}
+
+main ul {
+    clear: both;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+main ul li {
+    float: left;
+    width: 22%;
+    margin: 1%;
+    text-align: center;
+}
+
+main li img {
+    width: 100%;
+    height: auto;
+}
+
+main h3 {
+    clear: both;
+    text-align: center;
+    margin: 2% 0;
+}
+
+/* Reservas, lo mismo que arriba pero con forms */
+
+main form {
+    float: left;
+    width: 26.5%;
+    margin: 2%;
+    padding: 1%;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+main h3 {
+    text-align: center;
+    clear: both;
+    margin: 2%;
+}
+
+main input[type="submit"] {
+    margin-top: 2%;
+    background-color: #665DF5;
+    color: white;
+    padding: 2%;
+    border-radius: 25%;
+    margin-left: 40%;
+}
+
 
 /* Footer */
 
