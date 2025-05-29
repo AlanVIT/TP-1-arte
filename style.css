@@ -42,6 +42,11 @@ header nav li a{
     text-decoration: none;
 }    
 
+.actual{
+    color: #000;
+    font-weight: 900;
+}    
+
 /* Main */
 
 main form {
